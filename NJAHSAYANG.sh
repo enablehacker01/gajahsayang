@@ -196,6 +196,8 @@ clear
 git clone https://github.com/enablehacker01/allspam.git
 enablehacker01
 bangsataja01
+cd allspam
+bash allspam.sh
 fi
 
 if [ $nomor = 11  ] || [ $nomor]
