@@ -224,6 +224,7 @@ enablehacker01
 bangsataja01
 cd DDOS
 Python hammer.py
+Python2 hammer.py
 fi
 
 if [ $nomor = 14  ] || [ $nomor]
