@@ -1,3 +1,4 @@
+#! bin/bash/
 clear
 figlet NJAH-NDUT | lolcat
 echo "[+]─────────────────────────────────────────────────────[+]" | lolcat
