@@ -113,10 +113,7 @@ fi
 if [ $nomor = 03  ] || [ $nomor]
 then
 clear
-git clone https://github.com/enablehacker01/
-$enablehacker01
-$bangsataja01
-spamsms.git
+git clone https://github.com/enablehacker01/spamsms.git
 cd spamsms
 bash spamRGR.sh
 fi
@@ -160,8 +157,6 @@ if [ $nomor = 06  ] || [ $nomor]
 then
 clear
 git clone https://github.com/enablehacker01/toolsgila.git
-$enablehacker01
-$bangsataja01
 cd toolsgila
 bash install.sh
 fi
@@ -170,8 +165,6 @@ if [ $nomor = 07  ] || [ $nomor]
 then
 clear
 git clone https://github.com/enablehacker01/namauser.git
-$enablehacker01
-$bangsataja01
 cd namauser
 bash namauser.sh
 fi
@@ -180,8 +173,6 @@ if [ $nomor = 08  ] || [ $nomor]
 then
 clear
 git clone https://github.com/enablehacker01/thechoice.git
-$enablehacker01
-$bangsataja01
 cd thechoice
 bash thechoice.sh
 fi
@@ -192,8 +183,6 @@ clear
 apt-get install python
 apt-get install python2
 git clone https://github.com/enablehacker01/spamcall.git
-$enablehacker01
-$bangsataja01
 cd spamcall
 python2 spamcall.py
 fi
@@ -203,8 +192,6 @@ if [ $nomor = 10  ] || [ $nomor]
 then
 clear
 git clone https://github.com/enablehacker01/allspam.git
-$enablehacker01
-$bangsataja01
 Chmod +x allspam.sh
 Bash allspam.sh
 fi
@@ -263,8 +250,6 @@ if [ $nomor = 17  ] || [ $nomor]
 then
 clear
 git clone https://github.com/enablehacker01/
-$enablehacker01
-$bangsataja01
 cctv.git
 cd cctv.sh
 termux-fix-shebang cctv.sh
@@ -291,8 +276,6 @@ if [ $nomor = 20  ] || [ $nomor]
 then
 clear
 git clone https://github.com/enablehacker01/igf.git
-$enablehacker01
-$bangsataja01
 cd igf
 pip install requirement.txt
 chmod +x igf.py
