@@ -35,10 +35,6 @@ echo '''\a
 \033[32;1m                            / __/
 \033[32;1m                           |_____| '''
 sleep 1
-apt install php
-pip2 install mechanize
-pip2 install lolcat
-pip2 install requests
 clear
 echo
 echo
