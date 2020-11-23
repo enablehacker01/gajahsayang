@@ -66,7 +66,6 @@ echo " MAAF NAMA ANDA TIDAK COCOK SILAHKAN MASUKAN KATA SANDI UNTUK MASUK" | lol
 then 
 sleep2
 clear
-
 python2 kunci.py
 
 
@@ -84,7 +83,7 @@ echo " | Github      : https://github.com.                      |" | lolcat
 echo " | Thanks To   : ENABLEHACKER Indonesia => Malay          |" | lolcat
 echo " | COPYRIGHT   : 2K19 Ehacker Tq                          |" | lolcat
 echo "[+]─────────────────────────────────────────────────────[+]|"|lolcat
-echo   "====================================================================
+echo   "===================================================================="
 
 # Versi Installer 12.10
 # Nama       : Rafael
@@ -95,7 +94,7 @@ echo   "====================================================================
 # Instagram  : Rafael.Rafly
 # OPERATING SYSTEM BY :    KALI LINUX
 
-====================================================================" | lolcat
+echo "====================================================================" | lolcat
 
 sleep 2
 
@@ -121,7 +120,7 @@ echo "[00] Update & Upgrade Linux  [V]Connect
 [19] Spam Sms                      [V]Connect
 [20] TROJAN MRX                    [V]Connect
 [21] exit"  | lolcat
-echo "[*] pilih nomor ya sayang : " | lolcat
+echo "[*] pilih nomor ya sayang :" | lolcat
 read nomor
 
 if [ $nomor = 00  ] || [ $nomor]
@@ -227,10 +226,9 @@ figlet -f slant "W A I T"|lolcat
 apt-get install tor
 git clone https://github.com/enablehacker01/bfinstagram.git
 cd bfinstagram
-hmod +x install.sh
+cmod +x install.sh
 ./install.sh
 chmod +x instainsane.sh
-bash instainsane.sh
 fi
 
 if [ $nomor = 05  ] || [ $nomor]
@@ -254,7 +252,6 @@ figlet -f slant "W A I T"|lolcat
 git clone https://github.com/enablehacker01/DDOS.git
 cd DDOS
 chmod +x hammer.py
-Python hammer.py
 python2 hammer.py
 fi
 
@@ -353,9 +350,6 @@ figlet -f slant "W A I T"|lolcat
 pkg install bash
 git clone https://github.com/Benjamin12361/benjamin_ddos.sh
 cd benjamin_ddosh.sh
-chmod +x *
-ls
-sh benjamin_ddos.sh
 fi
 
 if [ $nomor = 21 ] || [ $nomor]
